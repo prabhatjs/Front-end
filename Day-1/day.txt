@@ -1,0 +1,13 @@
+awwward.com for warld best website.
+<sup>super-script</sup>power uper
+<sub>sub-script</sub>power niche
+
+div ki height=0 its shows nothing 
+1> div ek rectangular share hai jiske pass width hoti hai par height nhi hoti hai
+
+2>agr div ke andhar koi element aate hen to uske height un element ki total height k barabar hoti hai
+
+id - is use for diffrent element (id is like school students ids are diffrent from each other)
+class- those element are same we put in class (but class is same for all students whos are belongs to same class)
+
+background-size cover mtlv image ko image ko cover size me set kr dena
