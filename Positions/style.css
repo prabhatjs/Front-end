@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#car1{
+    position: absolute;/* pahli div uper uthegi to uske piche vale div uske niche aa jaynege**/
+    width: 120px;
+    height: 200px;
+    background-color: red;
+}
+
+#car2{
+    position: absolute;/* seocnd div ko absolute krenge to div black uske niche aa jayega but div one red vala chup jayega */
+    width: 150px;
+    height: 220px;
+    background-color: yellow;
+}
+
+#car3{
+    position: absolute;/* layer one hamesa upar rahgi agr sare element absolute honge to */
+    width: 220px;
+    height: 250px;
+    background-color: black;
+}
+#squre{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}

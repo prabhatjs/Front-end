@@ -1,0 +1,8 @@
+you have two car like |carA| And |carB| you think like this is divs 
+
+if you set Position:absolute of |carA|  this is up in to respect of screen and |CarB| below of |carA|
+
+absolute mtlv kisi bhi div ko upper uthana or uske jo piche div hoga vo uske niche aa jayega 
+
+Position relative mtlv ek div ke andar jo element hai vo uth jayega par vo uske andar hi rahega
+
