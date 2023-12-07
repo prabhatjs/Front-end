@@ -7,7 +7,7 @@ html,body{
     height: 100%;
 }
 
-#car1{
+ #car1{
     position: absolute;/* pahli div uper uthegi to uske piche vale div uske niche aa jaynege**/
     width: 120px;
     height: 200px;
@@ -26,9 +26,22 @@ html,body{
     width: 220px;
     height: 250px;
     background-color: black;
-}
+} 
+
 #squre{
+    /* squre is parent div of point */
     width: 500px;
     height: 500px;
     background-color: aqua;
+    position: relative;
+}
+#point{
+    /* point postion is set to absolute then point is up in screen  and it moves any where you want 
+    point 2--> if make parent relative then child element moves under only parent div
+    */
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    background-color: red;
 }

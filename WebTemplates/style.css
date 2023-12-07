@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+#main #LeftDiv{
+    width: 80%;
+    height: 100%;
+    background-color: green;
+
+}
+
+#LeftDiv #Ltop{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+
+#LeftDiv #Lbottom{
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+    padding: 100px 200px;
+
+}
+
+#Lbottom #LbottomContent{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+
+#rightDiv{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+}
+
+#rightDiv #Rtop{
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+} 
+
+#rightDiv #Rbottom{
+    width: 100%;
+    height: 30%;
+    background-color: chartreuse;
+}
