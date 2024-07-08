@@ -3,58 +3,30 @@
     padding: 0;
 }
 html,body{
+    height:100%;
     width: 100%;
-    height: 100%;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #main{
     display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: #dadada;
+    justify-content: center;
+    align-items: center;
 }
 
-#main #LeftDiv{
-    width: 80%;
-    height: 100%;
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#box2{
+    width: 100px;
+    height: 100px;
     background-color: green;
-
 }
 
-#LeftDiv #Ltop{
-    width: 100%;
-    height: 70%;
-    background-color: black;
-}
-
-#LeftDiv #Lbottom{
-    width: 100%;
-    height: 30%;
-    background-color: brown;
-    padding: 100px 200px;
-
-}
-
-#Lbottom #LbottomContent{
-    width: 100%;
-    height: 30px;
-    background-color: red;
-}
-
-#rightDiv{
-    width: 20%;
-    height: 100%;
-    background-color: red;
-}
-
-#rightDiv #Rtop{
-    width: 100%;
-    height: 70%;
-    background-color: blue;
-} 
-
-#rightDiv #Rbottom{
-    width: 100%;
-    height: 30%;
-    background-color: chartreuse;
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
 }
